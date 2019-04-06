@@ -41,7 +41,9 @@ namespace c0716342
                     }
                     file.Close();
                     Console.WriteLine($"File has {counter} lines.");
-                }
+                Console.WriteLine($"File has {counter*5} words.");
+
+            }
             }
             public int FindNumberOfBlankSpaces(string line)
             {
